@@ -29,38 +29,8 @@ Ini adalah halaman Aplikasi Website App Article Travel dibangun dengan React, Ty
 
 MIT © Maskur
 
-### 📜 Struktur Folder
-src/
-├── assets/                 # Gambar, ilustrasi, background, dll.
-├── components/             # Komponen UI reusable (Navbar, Button, dsb.)
-│   ├── nav/
-│   └── ui/
-├── lib/                    # Validasi Zod dan utilitas
-│   ├── schemaFormArticle.ts
-│   ├── schemaFormAuth.ts
-│   ├── schemaFormCategory.ts
-│   └── utils.ts
-├── pages/                  # Halaman utama aplikasi
-│   ├── article/
-│   ├── auth/
-│   ├── category/
-│   ├── dashboard/
-│   └── layouts.tsx
-├── redux/                  # Konfigurasi dan fitur Redux Toolkit
-│   ├── features/
-│   │   └── authSlice.ts
-│   ├── hooks.ts
-│   └── store.ts
-├── service/                # File untuk memanggil API
-│   ├── articleAPI.ts
-│   ├── categoryAPI.ts
-│   └── commentAPI.ts
-├── types/                  # Tipe data TypeScript
-│   ├── article.ts
-│   ├── category.ts
-│   └── comment.ts
-├── App.tsx                 # Root component utama
-├── index.css               # Global CSS
-├── main.tsx                # Entry point React
-└── vite-env.d.ts           # Environment Vite
+## 📜 Struktur Folder
+![image](https://github.com/user-attachments/assets/3c1adb35-1530-4355-bf29-7932fdc1c26d)
 
+### 📌 Catatan
+- API Tidak Dilakukan menggunakan .env takunya tidak bisa melakukan HIT API ketika project ini di clone, jadi saya langsung inisialisasi URL API langsung di setiap File API.
